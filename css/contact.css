@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 56px; 
+}
+
+.navbar {
+    background-color: #432874;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #d0b3ff !important;
+}
+
+section.py-5 {
+    padding-top: 80px; 
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+form {
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 8px rgba(111, 66, 193, 0.5);
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #6f42c1;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #8e63d4;
+}
+
+.row.mt-5 h4 {
+    font-size: 1.75rem;
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+.row.mt-5 p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.row.mt-5 a {
+    color: #6f42c1;
+    text-decoration: none;
+}
+
+.row.mt-5 a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #432874;
+    color: white;
+    padding: 25px 0;
+    font-size: 1rem;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .form-label {
+        font-size: 1rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 25px;
+    }
+}

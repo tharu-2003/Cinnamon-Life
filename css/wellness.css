@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-top: 56px; 
+}
+
+.navbar {
+    background-color: #432874;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #d0b3ff !important;
+}
+
+section.py-5 {
+    padding-top: 80px; 
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #6f42c1;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+h3.text-center {
+    font-size: 2rem;
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: #6f42c1;
+    font-weight: 600;
+}
+
+.text-center p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+a.btn {
+    background-color: #6f42c1;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: #8e63d4;
+}
+
+a.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.5);
+}
+
+.img-fluid {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #432874;
+    color: white;
+    padding: 25px 0;
+    font-size: 1rem;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .row {
+        margin-top: 20px;
+    }
+
+    .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    ul li {
+        font-size: 0.9rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 25px;
+    }
+}
